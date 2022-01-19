@@ -1,3 +1,10 @@
+// Preventing Techniques
+
+// Update the state variable before calling an out funtion
+
+// Create a lock mechanism for calling one function at a time
+
+
 //SPDX-License-Identifier : MIT
 
 pragma solidity ^0.8.0;
@@ -59,8 +66,3 @@ contract Hack {
     }
 }
 
-// Preventing Techniques
-
-// Update the state variable before calling an out funtion
-
-// Create a lock mechanism for calling one function at a time
